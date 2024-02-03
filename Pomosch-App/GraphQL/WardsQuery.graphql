@@ -1,0 +1,21 @@
+query WardsQuery {
+  wards {
+    nodes {
+      id
+      publicInformation {
+        city
+        dateOfBirth
+        name {
+          fullName
+          firstName
+          middleName
+        }
+        photo {
+          id
+          url(asAttachment:false)
+        }
+        story
+      }
+    }
+  }
+}

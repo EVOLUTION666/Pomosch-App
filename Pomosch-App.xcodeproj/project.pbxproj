@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55743F1C2B614FAB0035E31A /* CachedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55743F1B2B614FAA0035E31A /* CachedImageView.swift */; };
+		55A31B582B664D6000AE8CF1 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A31B532B664D6000AE8CF1 /* MainInteractor.swift */; };
+		55A31B592B664D6000AE8CF1 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A31B542B664D6000AE8CF1 /* MainRouter.swift */; };
+		55A31B5A2B664D6000AE8CF1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A31B552B664D6000AE8CF1 /* MainViewController.swift */; };
+		55A31B5B2B664D6000AE8CF1 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A31B562B664D6000AE8CF1 /* MainPresenter.swift */; };
+		55A31B5C2B664D6000AE8CF1 /* MainModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A31B572B664D6000AE8CF1 /* MainModuleBuilder.swift */; };
+		55EA08812B5C503800BB7183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA08802B5C503800BB7183 /* AppDelegate.swift */; };
+		55EA08832B5C503800BB7183 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA08822B5C503800BB7183 /* SceneDelegate.swift */; };
+		55EA088A2B5C503B00BB7183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55EA08892B5C503B00BB7183 /* Assets.xcassets */; };
+		55EA088D2B5C503B00BB7183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55EA088B2B5C503B00BB7183 /* LaunchScreen.storyboard */; };
+		55EA08962B5C506200BB7183 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 55EA08952B5C506200BB7183 /* Apollo */; };
+		55EA08982B5C71F100BB7183 /* GraphQL in Resources */ = {isa = PBXBuildFile; fileRef = 55EA08972B5C71F100BB7183 /* GraphQL */; };
+		55EA089D2B5C72CF00BB7183 /* PomoschAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 55EA089C2B5C72CF00BB7183 /* PomoschAPI */; };
+		55EA08AC2B5C74E600BB7183 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA08AB2B5C74E600BB7183 /* NetworkService.swift */; };
+		55EA08AF2B5E9CB300BB7183 /* WardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA08AE2B5E9CB300BB7183 /* WardTableViewCell.swift */; };
+		55EA08B82B5F011300BB7183 /* DetailModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA08B32B5F011300BB7183 /* DetailModuleBuilder.swift */; };
+		55EA08B92B5F011300BB7183 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA08B42B5F011300BB7183 /* DetailPresenter.swift */; };
+		55EA08BA2B5F011300BB7183 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA08B52B5F011300BB7183 /* DetailRouter.swift */; };
+		55EA08BB2B5F011300BB7183 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA08B62B5F011300BB7183 /* DetailViewController.swift */; };
+		55EA08BC2B5F011300BB7183 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA08B72B5F011300BB7183 /* DetailInteractor.swift */; };
+		55EA08C12B60573C00BB7183 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA08C02B60573C00BB7183 /* CustomNavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55743F1B2B614FAA0035E31A /* CachedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedImageView.swift; sourceTree = "<group>"; };
+		55A31B532B664D6000AE8CF1 /* MainInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		55A31B542B664D6000AE8CF1 /* MainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		55A31B552B664D6000AE8CF1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		55A31B562B664D6000AE8CF1 /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		55A31B572B664D6000AE8CF1 /* MainModuleBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainModuleBuilder.swift; sourceTree = "<group>"; };
+		55EA087D2B5C503800BB7183 /* Pomosch-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pomosch-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55EA08802B5C503800BB7183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55EA08822B5C503800BB7183 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55EA08892B5C503B00BB7183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55EA088C2B5C503B00BB7183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55EA088E2B5C503B00BB7183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55EA08972B5C71F100BB7183 /* GraphQL */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GraphQL; sourceTree = "<group>"; };
+		55EA089A2B5C72BD00BB7183 /* PomoschAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PomoschAPI; sourceTree = "<group>"; };
+		55EA08AB2B5C74E600BB7183 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		55EA08AE2B5E9CB300BB7183 /* WardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WardTableViewCell.swift; sourceTree = "<group>"; };
+		55EA08B32B5F011300BB7183 /* DetailModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModuleBuilder.swift; sourceTree = "<group>"; };
+		55EA08B42B5F011300BB7183 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		55EA08B52B5F011300BB7183 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		55EA08B62B5F011300BB7183 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		55EA08B72B5F011300BB7183 /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		55EA08C02B60573C00BB7183 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55EA087A2B5C503800BB7183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55EA08962B5C506200BB7183 /* Apollo in Frameworks */,
+				55EA089D2B5C72CF00BB7183 /* PomoschAPI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55EA08742B5C503800BB7183 = {
+			isa = PBXGroup;
+			children = (
+				55EA087F2B5C503800BB7183 /* Pomosch-App */,
+				55EA087E2B5C503800BB7183 /* Products */,
+				55EA089B2B5C72CF00BB7183 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55EA087E2B5C503800BB7183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55EA087D2B5C503800BB7183 /* Pomosch-App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55EA087F2B5C503800BB7183 /* Pomosch-App */ = {
+			isa = PBXGroup;
+			children = (
+				55EA08A82B5C730B00BB7183 /* Main */,
+				55EA08BD2B5F011700BB7183 /* Detail */,
+				55EA08AD2B5C74F200BB7183 /* Network */,
+				55EA08A92B5C731500BB7183 /* Application */,
+				55EA08AA2B5C731F00BB7183 /* Resources */,
+				55EA08992B5C72BD00BB7183 /* Packages */,
+				55EA08972B5C71F100BB7183 /* GraphQL */,
+			);
+			path = "Pomosch-App";
+			sourceTree = "<group>";
+		};
+		55EA08992B5C72BD00BB7183 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				55EA089A2B5C72BD00BB7183 /* PomoschAPI */,
+			);
+			name = Packages;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		55EA089B2B5C72CF00BB7183 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55EA08A82B5C730B00BB7183 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				55A31B532B664D6000AE8CF1 /* MainInteractor.swift */,
+				55A31B572B664D6000AE8CF1 /* MainModuleBuilder.swift */,
+				55A31B562B664D6000AE8CF1 /* MainPresenter.swift */,
+				55A31B542B664D6000AE8CF1 /* MainRouter.swift */,
+				55A31B552B664D6000AE8CF1 /* MainViewController.swift */,
+				55EA08B22B5EFAFB00BB7183 /* Cell */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		55EA08A92B5C731500BB7183 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				55EA08802B5C503800BB7183 /* AppDelegate.swift */,
+				55EA08822B5C503800BB7183 /* SceneDelegate.swift */,
+				55EA08C02B60573C00BB7183 /* CustomNavigationController.swift */,
+				55743F1B2B614FAA0035E31A /* CachedImageView.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		55EA08AA2B5C731F00BB7183 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55EA08892B5C503B00BB7183 /* Assets.xcassets */,
+				55EA088B2B5C503B00BB7183 /* LaunchScreen.storyboard */,
+				55EA088E2B5C503B00BB7183 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		55EA08AD2B5C74F200BB7183 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				55EA08AB2B5C74E600BB7183 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		55EA08B22B5EFAFB00BB7183 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				55EA08AE2B5E9CB300BB7183 /* WardTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		55EA08BD2B5F011700BB7183 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				55EA08B32B5F011300BB7183 /* DetailModuleBuilder.swift */,
+				55EA08B42B5F011300BB7183 /* DetailPresenter.swift */,
+				55EA08B52B5F011300BB7183 /* DetailRouter.swift */,
+				55EA08B62B5F011300BB7183 /* DetailViewController.swift */,
+				55EA08B72B5F011300BB7183 /* DetailInteractor.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55EA087C2B5C503800BB7183 /* Pomosch-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55EA08912B5C503B00BB7183 /* Build configuration list for PBXNativeTarget "Pomosch-App" */;
+			buildPhases = (
+				55EA08792B5C503800BB7183 /* Sources */,
+				55EA087A2B5C503800BB7183 /* Frameworks */,
+				55EA087B2B5C503800BB7183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pomosch-App";
+			packageProductDependencies = (
+				55EA08952B5C506200BB7183 /* Apollo */,
+				55EA089C2B5C72CF00BB7183 /* PomoschAPI */,
+			);
+			productName = "Pomosch-App";
+			productReference = 55EA087D2B5C503800BB7183 /* Pomosch-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55EA08752B5C503800BB7183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					55EA087C2B5C503800BB7183 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 55EA08782B5C503800BB7183 /* Build configuration list for PBXProject "Pomosch-App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55EA08742B5C503800BB7183;
+			packageReferences = (
+				55EA08942B5C506200BB7183 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
+			productRefGroup = 55EA087E2B5C503800BB7183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55EA087C2B5C503800BB7183 /* Pomosch-App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55EA087B2B5C503800BB7183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55EA088D2B5C503B00BB7183 /* LaunchScreen.storyboard in Resources */,
+				55EA088A2B5C503B00BB7183 /* Assets.xcassets in Resources */,
+				55EA08982B5C71F100BB7183 /* GraphQL in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55EA08792B5C503800BB7183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A31B5A2B664D6000AE8CF1 /* MainViewController.swift in Sources */,
+				55EA08812B5C503800BB7183 /* AppDelegate.swift in Sources */,
+				55A31B5B2B664D6000AE8CF1 /* MainPresenter.swift in Sources */,
+				55EA08AC2B5C74E600BB7183 /* NetworkService.swift in Sources */,
+				55EA08BA2B5F011300BB7183 /* DetailRouter.swift in Sources */,
+				55EA08BC2B5F011300BB7183 /* DetailInteractor.swift in Sources */,
+				55EA08832B5C503800BB7183 /* SceneDelegate.swift in Sources */,
+				55EA08B82B5F011300BB7183 /* DetailModuleBuilder.swift in Sources */,
+				55EA08AF2B5E9CB300BB7183 /* WardTableViewCell.swift in Sources */,
+				55A31B592B664D6000AE8CF1 /* MainRouter.swift in Sources */,
+				55743F1C2B614FAB0035E31A /* CachedImageView.swift in Sources */,
+				55EA08B92B5F011300BB7183 /* DetailPresenter.swift in Sources */,
+				55EA08C12B60573C00BB7183 /* CustomNavigationController.swift in Sources */,
+				55A31B5C2B664D6000AE8CF1 /* MainModuleBuilder.swift in Sources */,
+				55EA08BB2B5F011300BB7183 /* DetailViewController.swift in Sources */,
+				55A31B582B664D6000AE8CF1 /* MainInteractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55EA088B2B5C503B00BB7183 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55EA088C2B5C503B00BB7183 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55EA088F2B5C503B00BB7183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55EA08902B5C503B00BB7183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55EA08922B5C503B00BB7183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MQF3GGWS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pomosch-App/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrey.Pomosch-Appp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55EA08932B5C503B00BB7183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MQF3GGWS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pomosch-App/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrey.Pomosch-Appp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55EA08782B5C503800BB7183 /* Build configuration list for PBXProject "Pomosch-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55EA088F2B5C503B00BB7183 /* Debug */,
+				55EA08902B5C503B00BB7183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55EA08912B5C503B00BB7183 /* Build configuration list for PBXNativeTarget "Pomosch-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55EA08922B5C503B00BB7183 /* Debug */,
+				55EA08932B5C503B00BB7183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		55EA08942B5C506200BB7183 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		55EA08952B5C506200BB7183 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55EA08942B5C506200BB7183 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		55EA089C2B5C72CF00BB7183 /* PomoschAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PomoschAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 55EA08752B5C503800BB7183 /* Project object */;
+}
